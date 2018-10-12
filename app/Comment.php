@@ -42,7 +42,7 @@ class Comment extends Model
         $newComment->username = $p_username;
         $newComment->content = $p_content;
         $newComment->parent_id = $p_parent_id;
-        $newComment->article_id = 1;
+        $newComment->article_id = $p_article_id;
         $newComment->save();
         return $newComment;
     }
