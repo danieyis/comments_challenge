@@ -1,0 +1,17 @@
+.level-1 {
+    padding-left: 10rem;
+}
+
+.level-2 {
+    padding-left: 20rem;
+   }
+
+.comment-text {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.comment-name {
+    font-size: 1.7rem;
+}
+
